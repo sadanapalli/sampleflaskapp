@@ -1,0 +1,7 @@
+1. Install httpd
+2. Add the below to /etc/httpd/conf/httpd.conf at the end
+IncludeOptional sites-enabled/*.conf
+3. Create the below under /etc/httpd
+sites-available and sites-enabled
+4. Create the file FlaskApp.conf under sites-available and link to it from sites-enabled
+5. Restart httpd
